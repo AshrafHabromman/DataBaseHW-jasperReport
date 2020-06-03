@@ -1,0 +1,24 @@
+
+
+create table HOTEL_GUEST(
+guest_ssn number(9) not null primary key ,
+
+have_Covid19 varchar(1), 
+age int not null ,
+guest_name varchar(20) not null );
+
+
+create  sequence  guest_ssn_seq 
+
+start with 0 
+
+increment by 1 
+
+maxvalue 99999999
+
+minvalue 0 
+no
+cycle
+
+order
+;
